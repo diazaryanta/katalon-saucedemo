@@ -32,17 +32,6 @@ Pengujian dilakukan pada website [Saucedemo](https://www.saucedemo.com/) dengan 
 4.  Buka salah satu *Test Case* (misalnya: `Checkout Process`).
 5.  Klik tombol **Run** menggunakan browser pilihan Anda (Chrome/Firefox).
 
-## 💡 Hal Penting yang Dipelajari
-Dalam mengerjakan proyek ini, beberapa poin krusial yang diimplementasikan adalah:
-* **Synchronization:** Penggunaan `waitForElementVisible` untuk menangani elemen yang dinamis.
-* **Custom Assertion:** Penggunaan logika matematika untuk memvalidasi urutan harga produk.
-* **Modularization:** Memanggil *Test Case* di dalam *Test Case* lain (`callTestCase`) untuk efisiensi skrip.
-* **Git Integration:** Mengelola autentikasi menggunakan *Personal Access Token* (PAT) untuk proses *push* ke GitHub.
-
-# Refleksi & Pembelajaran Automation Testing
-
-Dokumen ini merangkum tantangan teknis serta pembelajaran utama yang diperoleh selama proses pengerjaan otomatisasi pengujian menggunakan Katalon Studio.
-
 ---
 
 # REFLECTION QUESTION
