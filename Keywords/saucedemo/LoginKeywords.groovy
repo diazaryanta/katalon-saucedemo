@@ -11,12 +11,10 @@ public class LoginKeywords {
         WebUI.openBrowser('https://www.saucedemo.com/')
         WebUI.maximizeWindow()
         
-        WebUI.setText(findTestObject('Object Repository/input_username'), username)
+        WebUI.setText(findTestObject('Object Repository/saucedemo/Login Page/input_username'), username)
         
-        WebUI.setEncryptedText(findTestObject('Object Repository/input_password'), password)
+        WebUI.setEncryptedText(findTestObject('Object Repository/saucedemo/Login Page/input_password'), password)
         
-        WebUI.click(findTestObject('Object Repository/btn_login'))
-        
-        WebUI.comment("Login button clicked, test finished.")
+        WebUI.click(findTestObject('Object Repository/saucedemo/Login Page/btn_login'))
     }
 }

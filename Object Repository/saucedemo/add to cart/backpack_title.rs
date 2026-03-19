@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>backpack_title</name>
    <tag></tag>
-   <elementGuidId>c4465b63-e939-4eb2-9ae0-d78369806607</elementGuidId>
+   <elementGuidId>d7cdfab3-4fcd-4316-ab17-4fd23cae4ad1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='user-name']</value>
+         <value>//div[normalize-space()='Sauce Labs Backpack']</value>
       </entry>
       <entry>
          <key>BASIC</key>

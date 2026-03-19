@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_login</name>
+   <name>button_finish</name>
    <tag></tag>
-   <elementGuidId>5beed764-e73f-42ff-b33d-5d27f8792a2f</elementGuidId>
+   <elementGuidId>c319c745-4395-4af0-bca3-e133f5043e6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
+         <value>//button[@id='finish']</value>
       </entry>
       <entry>
          <key>BASIC</key>

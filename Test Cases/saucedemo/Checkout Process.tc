@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>• Melakukan login
+• Menambahkan produk ke dalam keranjang
+• Masuk ke halaman keranjang
+• Menekan tombol Checkout
+• Mengisi data diri yang dibutuhkan, yaitu:
+   1. First Name
+   2. Last Name
+   3. Postal Code
+• Menekan tombol Continue
+• Menekan tombol Finish untuk menyelesaikan transaksi</description>
+   <name>Checkout Process</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87590536-3026-4d78-b004-42151c3efd23</testCaseGuid>
+</TestCaseEntity>
