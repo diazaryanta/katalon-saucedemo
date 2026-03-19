@@ -39,10 +39,29 @@ Dalam mengerjakan proyek ini, beberapa poin krusial yang diimplementasikan adala
 * **Modularization:** Memanggil *Test Case* di dalam *Test Case* lain (`callTestCase`) untuk efisiensi skrip.
 * **Git Integration:** Mengelola autentikasi menggunakan *Personal Access Token* (PAT) untuk proses *push* ke GitHub.
 
-## Reflection Question
-1. Bagian Tersulit dalam Automation Testing di Katalon.
-   Menurut pengalaman saya, bagian yang paling sulit adalah menangani sinkronisasi antara skrip dan elemen web, serta logika pengujian pada fitur pengurutan (sorting).
-* **Kendalanya:** Sering kali terjadi error seperti Element Not Found atau Step Failed karena skrip berjalan terlalu cepat sebelum halaman web selesai memuat elemen secara sempurna. Selain itu, membuat assertion untuk memastikan harga benar-benar terurut dari yang terkecil ke terbesar memerlukan logika tambahan yang lebih kompleks daripada sekadar klik tombol.
-* **Cara Mengatasinya:** Saya mencoba mengatasinya dengan mempelajari penggunaan Wait Command seperti waitForElementVisible alih-alih hanya mengandalkan fixed delay. Untuk fitur
-sorting, saya belajar menggunakan List dan Collections di Groovy untuk membandingkan urutan harga yang ada di layar dengan urutan yang seharusnya. Saya juga lebih mendalami Inspect Element untuk membuat Custom XPath agar objek lebih stabil.
-* **Apa yang Dipahami:** Dari proses ini, saya menyadari bahwa automation testing bukan hanya soal menjalankan perintah secara otomatis, melainkan tentang membangun skrip yang tangguh (robust) terhadap perubahan kecepatan muat halaman dan memastikan logika bisnis aplikasi benar-benar terverifikasi dengan valid.
+# Refleksi & Pembelajaran Automation Testing
+
+Dokumen ini merangkum tantangan teknis serta pembelajaran utama yang diperoleh selama proses pengerjaan otomatisasi pengujian menggunakan Katalon Studio.
+
+---
+
+# REFLECTION QUESTION
+## 1. Bagian Tersulit dalam Automation Testing di Katalon
+Menurut pengalaman saya, bagian yang paling sulit adalah menangani sinkronisasi antara skrip dan elemen web, serta logika pengujian pada fitur pengurutan (*sorting*).
+
+* **Kendala:** Sering kali terjadi error seperti *Element Not Found* atau *Step Failed* karena skrip berjalan terlalu cepat sebelum halaman web selesai memuat elemen secara sempurna. Selain itu, membuat *assertion* untuk memastikan harga benar-benar terurut dari yang terkecil ke terbesar memerlukan logika tambahan yang lebih kompleks daripada sekadar klik tombol.
+
+* **Cara Mengatasi:** Saya mencoba mengatasinya dengan mempelajari penggunaan *Wait Command* seperti `waitForElementVisible` alih-alih hanya mengandalkan *fixed delay*. Untuk fitur *sorting*, saya belajar menggunakan *List* dan *Collections* di Groovy untuk membandingkan urutan harga yang ada di layar dengan urutan yang seharusnya. Saya juga lebih mendalami *Inspect Element* untuk membuat *Custom XPath* agar objek lebih stabil.
+
+* **Apa yang Dipahami:** Dari proses ini, saya menyadari bahwa *automation testing* bukan hanya soal menjalankan perintah secara otomatis, melainkan tentang membangun skrip yang tangguh (*robust*) terhadap perubahan kecepatan muat halaman dan memastikan logika bisnis aplikasi benar-benar terverifikasi dengan valid.
+
+---
+
+## 2. Keterampilan Paling Penting untuk Pekerjaan di Dunia Nyata
+Setelah menyelesaikan seluruh rangkaian *test case* mulai dari Login hingga Checkout, menurut saya keterampilan yang paling penting di dunia nyata adalah **Logika Analisis Troubleshooting** dan **Ketelitian dalam Manajemen Data**.
+
+### Analisis Troubleshooting
+Dalam pekerjaan nyata, aplikasi akan terus berkembang dan perubahan kecil pada kode developer bisa mematahkan skrip pengujian yang sudah kita buat. Kemampuan membaca *Log Viewer* dan memahami *Root Cause* dari sebuah error sangat krusial agar kita bisa memperbaiki skrip dengan cepat tanpa harus bingung mencari letak kesalahannya.
+
+### Manajemen Object Repository
+Pengalaman mengerjakan tugas ini mengajarkan saya bahwa kerapian dalam mengelola *Object Repository* sangatlah penting. Jika folder dan penamaan objek tidak rapi sejak awal, skrip akan sulit dikelola saat jumlah *test case* bertambah banyak. Di dunia kerja, kolaborasi tim sangat bergantung pada seberapa rapi dan terstruktur kodingan yang kita buat agar mudah dipahami oleh rekan kerja lainnya.
