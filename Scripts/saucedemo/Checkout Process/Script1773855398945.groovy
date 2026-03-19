@@ -31,7 +31,7 @@ WebUI.click(findTestObject('saucedemo/checkout/input_Cancel_continue'))
 
 WebUI.click(findTestObject('saucedemo/checkout/button_finish'))
 
-WebUI.verifyElementPresent(findTestObject('saucedemo/checkout/title_checkout_overview'), 0)
+WebUI.verifyElementPresent(findTestObject('saucedemo/checkout/title_checkout_overview'), 3)
 
 WebUI.verifyElementText(findTestObject('saucedemo/checkout/title_checkout_complete'), 'Checkout: Complete!')
 
