@@ -60,8 +60,8 @@ Menurut pengalaman saya, bagian yang paling sulit adalah menangani sinkronisasi 
 ## 2. Keterampilan Paling Penting untuk Pekerjaan di Dunia Nyata
 Setelah menyelesaikan seluruh rangkaian *test case* mulai dari Login hingga Checkout, menurut saya keterampilan yang paling penting di dunia nyata adalah **Logika Analisis Troubleshooting** dan **Ketelitian dalam Manajemen Data**.
 
-### Analisis Troubleshooting
+* **Analisis Troubleshooting**
 Dalam pekerjaan nyata, aplikasi akan terus berkembang dan perubahan kecil pada kode developer bisa mematahkan skrip pengujian yang sudah kita buat. Kemampuan membaca *Log Viewer* dan memahami *Root Cause* dari sebuah error sangat krusial agar kita bisa memperbaiki skrip dengan cepat tanpa harus bingung mencari letak kesalahannya.
 
-### Manajemen Object Repository
+* **Manajemen Object Repository**
 Pengalaman mengerjakan tugas ini mengajarkan saya bahwa kerapian dalam mengelola *Object Repository* sangatlah penting. Jika folder dan penamaan objek tidak rapi sejak awal, skrip akan sulit dikelola saat jumlah *test case* bertambah banyak. Di dunia kerja, kolaborasi tim sangat bergantung pada seberapa rapi dan terstruktur kodingan yang kita buat agar mudah dipahami oleh rekan kerja lainnya.
