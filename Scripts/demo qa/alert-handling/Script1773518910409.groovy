@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.alerts)
 
-WebUI.scrollToElement(findTestObject('demo-qa/alert-confirmation'), 0)
+WebUI.scrollToElement(findTestObject('demo qa/alert-confirmation'), 0)
 
-WebUI.click(findTestObject('demo-qa/alert-confirmation'))
+WebUI.click(findTestObject('demo qa/alert-confirmation'))
 
 WebUI.waitForAlert(5)
 

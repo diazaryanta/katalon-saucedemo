@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.Url)
 
-WebUI.switchToFrame(findTestObject('demo-qa/frame1_txt'), 0)
+WebUI.switchToFrame(findTestObject('demo qa/frame1_txt'), 0)
 
 WebUI.verifyTextPresent('This is a sample page', false)
 
 WebUI.switchToDefaultContent()
 
-WebUI.switchToFrame(findTestObject('demo-qa/frame2_txt'), 0)
+WebUI.switchToFrame(findTestObject('demo qa/frame2_txt'), 0)
 
 WebUI.verifyTextPresent('This is a sample page', false)
 

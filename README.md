@@ -11,15 +11,24 @@ Pengujian dilakukan pada website [Saucedemo](https://www.saucedemo.com/) dengan 
 * **Add to Cart:** Menambahkan produk "Sauce Labs Backpack" ke keranjang dan memverifikasi keberadaan item tersebut di halaman "Your Cart".
 * **Checkout Process:** Melakukan proses pengisian informasi pengiriman hingga konfirmasi pesanan selesai.
 
+### 2. WEB UI Testing (demo qa)
+Pengujian dilakukan pada website [DemoQA](https://demoqa.com/) dengan skenario berikut:
+* **Alert Handling:** Menangani pop-up dengan explicit wait.
+* **Handling iframe:** Menangani iframe berlapis dan memverifikasi iframe bahwa sudah sesuai.
+
+### 3. WEB UI Testing (Automation Bookstore)
+Pengujian dilakukan pada website [Automation booksore](https://automationbookstore.dev/) dengan skenario berikut:
+* **Agile Books:** Mencari buku lalu memvalidasi bahwa apa yang di cari sesuai dengan search key. 
+
 ## 🛠️ Tech Stack & Tools
 * **Tool:** Katalon Studio
-* **Language:** Groovy / Java
-* **Library:** Selenium Web Driver (untuk Custom Web Element)
-* **Version Control:** Git & GitHub
+* **Language:** Groovy
+* **Library:** Web Driver (untuk Custom Web Element)
+* **Version Control:** GitHub
 
 ## 📁 Struktur Proyek
 * **`Test Cases/`**: Berisi skrip logika pengujian (Modular & End-to-End).
-* **`Object Repository/`**: Penyimpanan terstruktur untuk element locator (XPath & CSS) dan API Request.
+* **`Object Repository/`**: Penyimpanan terstruktur untuk element locator (XPath).
 * **`Scripts/`**: Kode Groovy yang menggerakkan logika pengujian.
 
 ## ⚙️ Cara Menjalankan
